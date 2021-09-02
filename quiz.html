@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun with triangle</title>
+    <link rel="stylesheet" href="quiz.css"> 
+</head>
+<body>
+    <nav class="navigation">
+        <ul class="unorderedlist">
+            <li class="listitem"><a href="anglesoftriangle.html" class="navigationlink">Angle of triangle</a></li>
+            <li class="listitem"><a href="quiz.html" class="navigationlink"><b>Quiz</b></a></li>
+            <li class="listitem"><a href="hypotanusoftriangle.html" class="navigationlink">Find hipotanus</a></li>
+            <li class="listitem"><a href="findarea.html" class="navigationlink">Find area</a></li>
+            <li class="listitem"><a href="square.html" class="navigationlink">Bonus Part</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1 class="mainheading">Answer the questions</h1>
+        <h2>Choose the right answers :</h2>
+        <form id="form">
+            <label for="radiobtnlbl">1. What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?
+            <div class="inputs"><input type="radio" name="question1" value="45" class="radiobtn">45
+            <input type="radio" name="question1" value="90" class="radiobtn">90
+            <input type="radio" name="question1" value="60" class="radiobtn">60</div></label>
+            <label for="radiobtnlbl">2. If a triangle has an angle of 90 degrees, what is it called?
+            <div class="inputs"><input type="radio" name="question2" value="obtuse" class="radiobtn">obtuse
+            <input type="radio" name="question2" value="acute" class="radiobtn">acute
+            <input type="radio" name="question2" value="right angled" class="radiobtn">right angled</div></label>
+        </form>
+        <button id="check">Submit</button>
+        <b><div id="output"></div></b>
+    </div>
+</body>
+<script src="quiz.js"></script>
+</html>
