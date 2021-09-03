@@ -14,11 +14,13 @@ body{
     
 }
 #check{
+    display: block;
+    width: auto;
+    margin: auto;
+    margin-top: 1rem;
+    border: solid black;
     border-radius: 0.5rem;
     padding: 0.5rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    width: auto;
 }
 #output{
     margin-bottom: 1rem;
