@@ -1,7 +1,6 @@
 const side = document.querySelector(".sidesofsquare");
 const calculateBtn = document.querySelector("#check");
 const outPut = document.querySelector("#output");
-
 calculateBtn.addEventListener("click",mainFunction)
 
 function mainFunction(){

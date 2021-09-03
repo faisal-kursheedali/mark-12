@@ -25,7 +25,7 @@ body{
     padding: 0.5rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    width: 25%;
+    width: auto;
 }
 #output{
     margin-bottom: 1rem;

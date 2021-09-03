@@ -21,7 +21,7 @@ body{
     padding: 0.5rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    width: 25%;
+    width: auto;
 }
 #output{
     margin-bottom: 1rem;
@@ -46,12 +46,12 @@ body{
     text-align: right;
     font-size: large;
 }
-.sidesoftriangle{
-    margin: auto;
-    display: block;
-    width: 50%;
-}
 label{
     text-align: center;
     font-size: larger;
+    display: block;
+}
+.sidesofsquare{
+    margin: auto;
+    width: 50%;
 }
